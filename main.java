@@ -13,10 +13,8 @@ public class Main
         } while (deler <= 0);
         
         do {
-            if(posGetal >= 0){
-                if (posGetal%deler == 0){
+            if(posGetal >= 0 && posGetal%deler == 0){
                     teller++;
-                }
             }
             System.out.print("Geef een postief getal in (of stop met -1): ");
             posGetal = invoer.nextInt();
